@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background:black;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: red;
+}
+
+input {
+  margin: 10px 0;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.message {
+  color: red;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 15px;
+  color: white;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* পাসওয়ার্ডের আইকনের স্টাইল */
+.password-container {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right:0cqmax;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+label {
+  text-align: left;
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
